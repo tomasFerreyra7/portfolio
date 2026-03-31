@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tomás — Dev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,400&family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+
+</head>
+
+<body>
+    <div class="hero-grid"></div>
+
+    <nav>
+        <span class="nav-logo">// dev.ar</span>
+        <ul class="nav-links">
+            <li><a href="#projects">proyectos</a></li>
+            <li><a href="#stack">stack</a></li>
+            <li><a href="#about">sobre mí</a></li>
+            <li><a href="#contact">contacto</a></li>
+        </ul>
+    </nav>
+
+    <div id="hero">
+        <div class="hero-glow"></div>
+        <div class="hero-inner">
+            <div class="hero-badge">Disponible para proyectos</div>
+            <h1>
+                Construyo soluciones web<br />
+                de principio a fin,<br />
+                con <span class="accent-word">impacto real</span>.
+            </h1>
+            <p class="hero-sub">
+                Desarrollo apps web y sistemas complejos — con Node.js, SQL
+                y Next.js de fondo. Remoto desde Argentina, para clientes en
+                todo el mundo.
+            </p>
+            <div class="hero-ctas">
+                <a href="#contact" class="btn-primary">Hablemos de tu proyecto →</a>
+                <a href="#projects" class="btn-ghost">Ver trabajos</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <section id="projects">
+        <p class="section-label reveal">// the lab</p>
+        <h2 class="section-title reveal">
+            Proyectos reales.<br />Problemas resueltos.
+        </h2>
+        <p class="section-desc reveal">
+            Cada proyecto comienza con un problema concreto. Acá están los
+            que mejor cuentan cómo trabajo.
+        </p>
+
+        <div class="projects-grid">
+            <div class="project-card reveal">
+                <div class="project-header">
+                    <span class="project-number">01</span>
+                    <span class="project-status status-done">Entregado</span>
+                </div>
+                <h3 class="project-name">Sistema ERP para Empresas</h3>
+                <p class="project-tagline">
+                    Plataforma de gestión empresarial completa — stock,
+                    ventas, finanzas y usuarios en un solo sistema.
+                </p>
+                <div class="project-grid">
+                    <div class="project-field">
+                        <label>Problema</label>
+                        <p>
+                            La empresa operaba con hojas de cálculo
+                            desconectadas. Sin trazabilidad, sin control de
+                            inventario en tiempo real.
+                        </p>
+                    </div>
+                    <div class="project-field">
+                        <label>Solución</label>
+                        <p>
+                            ERP modular con roles y permisos, dashboard de
+                            métricas, gestión de stock y módulo de
+                            facturación integrado.
+                        </p>
+                    </div>
+                    <div class="project-field">
+                        <label>Stack</label>
+                        <div class="tech-pills">
+                            <span class="tech-pill">Next.js</span>
+                            <span class="tech-pill">Node.js</span>
+                            <span class="tech-pill">PostgreSQL</span>
+                            <span class="tech-pill">Prisma</span>
+                            <span class="tech-pill">TypeScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-result">
+                    <span class="result-text">↑ Centralización total de operaciones. Eliminación
+                        de errores manuales y visibilidad en tiempo real del
+                        negocio.</span>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="project-header">
+                    <span class="project-number">02</span>
+                    <span class="project-status status-done">Entregado</span>
+                </div>
+                <h3 class="project-name">Clon de Airbnb</h3>
+                <p class="project-tagline">
+                    Plataforma fullstack de alquiler de propiedades —
+                    búsqueda, reservas, pagos y panel de host.
+                </p>
+                <div class="project-grid">
+                    <div class="project-field">
+                        <label>Problema</label>
+                        <p>
+                            Proyecto técnico de alta complejidad: sistema de
+                            reservas con disponibilidad, auth y flujo de
+                            pagos completo.
+                        </p>
+                    </div>
+                    <div class="project-field">
+                        <label>Solución</label>
+                        <p>
+                            App fullstack con búsqueda por filtros,
+                            calendario de disponibilidad, auth OAuth y
+                            pasarela de pagos integrada.
+                        </p>
+                    </div>
+                    <div class="project-field">
+                        <label>Stack</label>
+                        <div class="tech-pills">
+                            <span class="tech-pill">Next.js</span>
+                            <span class="tech-pill">Node.js</span>
+                            <span class="tech-pill">PostgreSQL</span>
+                            <span class="tech-pill">Stripe</span>
+                            <span class="tech-pill">Tailwind</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-result">
+                    <span class="result-text">↑ Flujo de reserva end-to-end funcional. Capacidad
+                        de arquitectar sistemas complejos de cero.</span>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="project-header">
+                    <span class="project-number">03</span>
+                    <span class="project-status status-wip">En desarrollo</span>
+                </div>
+                <h3 class="project-name">API REST para E-commerce</h3>
+                <p class="project-tagline">
+                    Backend escalable para tienda con catálogo dinámico,
+                    auth y pagos.
+                </p>
+                <div class="project-grid">
+                    <div class="project-field">
+                        <label>Problema</label>
+                        <p>
+                            Backend monolítico que colapsaba bajo carga
+                            media. Sin tests, sin documentación.
+                        </p>
+                    </div>
+                    <div class="project-field">
+                        <label>Solución</label>
+                        <p>
+                            Reescritura en Node modular con endpoints
+                            documentados, caché y manejo de errores robusto.
+                        </p>
+                    </div>
+                    <div class="project-field">
+                        <label>Stack</label>
+                        <div class="tech-pills">
+                            <span class="tech-pill">Node.js</span>
+                            <span class="tech-pill">Express</span>
+                            <span class="tech-pill">MySQL</span>
+                            <span class="tech-pill">Redis</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-result">
+                    <span class="result-text">↑ Arquitectura lista para producción. Alta
+                        disponibilidad y latencia optimizada bajo carga
+                        real.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="stack">
+        <p class="section-label reveal">// herramientas</p>
+        <h2 class="section-title reveal">Stack</h2>
+        <p class="section-desc reveal">
+            Las tecnologías que uso a diario. Sin hype, con criterio.
+        </p>
+
+        <div class="stack-categories reveal">
+            <div>
+                <p class="stack-category-label">Backend</p>
+                <div class="stack-grid">
+                    <div class="stack-item">
+                        <span class="stack-icon">⬡</span><span class="stack-name">Node.js</span>
+                    </div>
+                    <div class="stack-item">
+                        <span class="stack-icon">◈</span><span class="stack-name">Java</span>
+                    </div>
+                    <div class="stack-item">
+                        <span class="stack-icon">◈</span><span class="stack-name">NestJS</span>
+                    </div>
+                    <div class="stack-item">
+                        <span class="stack-icon">◉</span><span class="stack-name">PostgreSQL</span>
+                    </div>
+                    <div class="stack-item">
+                        <span class="stack-icon">◈</span><span class="stack-name">MySQL</span>
+                    </div>
+                    <div class="stack-item">
+                        <span class="stack-icon">⬡</span><span class="stack-name">Prisma</span>
+                    </div>
+                    <div class="stack-item">
+                        <span class="stack-icon">◎</span><span class="stack-name">Redis</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p class="stack-category-label">Frontend & Web</p>
+                <div class="stack-grid">
+                    <div class="stack-item">
+                        <span class="stack-icon">◈</span><span class="stack-name">Next.js</span>
+                    </div>
+                    <div class="stack-item">
+                        <span class="stack-icon">⬡</span><span class="stack-name">React</span>
+                    </div>
+                    <div class="stack-item">
+                        <span class="stack-icon">◉</span><span class="stack-name">TypeScript</span>
+                    </div>
+                    <div class="stack-item">
+                        <span class="stack-icon">◈</span><span class="stack-name">Tailwind CSS</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p class="stack-category-label">Infraestructura & Tools</p>
+                <div class="stack-grid">
+                    <div class="stack-item">
+                        <span class="stack-icon">◎</span><span class="stack-name">Vercel</span>
+                    </div>
+                    <div class="stack-item">
+                        <span class="stack-icon">⬡</span><span class="stack-name">Docker</span>
+                    </div>
+                    <div class="stack-item">
+                        <span class="stack-icon">◈</span><span class="stack-name">Git / GitHub</span>
+                    </div>
+                    <div class="stack-item">
+                        <span class="stack-icon">◉</span><span class="stack-name">REST APIs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="about">
+        <p class="section-label reveal">// sobre mí</p>
+        <h2 class="section-title reveal">
+            Código que resuelve<br />problemas reales.
+        </h2>
+
+        <div class="about-grid">
+            <div class="about-text reveal">
+                <p>
+                    Soy desarrollador backend y web con base en Argentina.
+                    Me especializo en
+                    <strong>construir sistemas que escalan</strong> — desde
+                    APIs robustas hasta interfaces que convierten.
+                </p>
+                <p>
+                    No escribo código por escribir. Cada decisión técnica
+                    tiene un <strong>porqué de negocio</strong> detrás:
+                    performance, mantenibilidad, o conversión.
+                </p>
+                <p>
+                    Trabajo remoto con clientes en Latinoamérica, Europa y
+                    Estados Unidos.
+                    <strong>Comunicación clara, entregas a tiempo, sin
+                        sorpresas.</strong>
+                </p>
+            </div>
+            <div class="about-values reveal">
+                <div class="about-value">
+                    <span class="value-icon">01</span>
+                    <div class="value-content">
+                        <h4>Primero entiendo el problema</h4>
+                        <p>
+                            Antes de escribir una línea, entiendo qué
+                            necesita tu negocio. La solución técnica viene
+                            después.
+                        </p>
+                    </div>
+                </div>
+                <div class="about-value">
+                    <span class="value-icon">02</span>
+                    <div class="value-content">
+                        <h4>Código limpio, no código heroico</h4>
+                        <p>
+                            El mejor código es el que otra persona puede
+                            leer, mantener y escalar. Sin magia innecesaria.
+                        </p>
+                    </div>
+                </div>
+                <div class="about-value">
+                    <span class="value-icon">03</span>
+                    <div class="value-content">
+                        <h4>Entrego. Siempre.</h4>
+                        <p>
+                            Los deadlines existen. Comunico avances,
+                            gestiono expectativas y cumplo lo acordado.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="contact">
+        <div class="contact-glow"></div>
+        <div class="contact-inner">
+            <p class="section-label reveal" style="text-align: center">
+                // contacto
+            </p>
+            <h2 class="section-title reveal" style="text-align: center">
+                ¿Tenés un proyecto<br />en mente?
+            </h2>
+            <p class="reveal" style="
+                        color: var(--text-muted);
+                        font-size: 1rem;
+                        max-width: 440px;
+                        margin: 0 auto 2.5rem;
+                        line-height: 1.7;
+                        font-weight: 300;
+                        text-align: center;
+                    ">
+                Contame qué necesitás construir. Te respondo con una
+                propuesta concreta.
+            </p>
+            <div class="reveal" style="text-align: center">
+                <a href="mailto:tomy2002.tf@gmail.com" class="btn-primary"
+                    style="font-size: 1rem; padding: 1rem 2.5rem">
+                    Escribime →
+                </a>
+            </div>
+            <span class="contact-email reveal">tomy2002.tf@gmail.com</span>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 — Todos los derechos reservados</p>
+        <div class="footer-links">
+            <a href="https://github.com/tomasFerreyra7" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/tomas-ferreyra-a92b18233/" target="_blank">LinkedIn</a>
+            <a href="mailto:tomy2002.tf@gmail.com">Email</a>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
